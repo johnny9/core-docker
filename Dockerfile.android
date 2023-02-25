@@ -21,4 +21,3 @@ RUN apt-get update
 RUN apt-get install -y make autoconf automake cmake curl g++-multilib libtool binutils bsdmainutils pkg-config python python3 patch bison
 RUN apt-get install -y g++-aarch64-linux-gnu binutils-aarch64-linux-gnu
 RUN apt-get install -y gradle
-RUN apt-get install -y llvm-config
